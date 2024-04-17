@@ -1,0 +1,26 @@
+###########################
+# Fruitspace Events
+###########################
+
+add_namespace = fruitspace_will_to_power
+# Second Vienna Award - No Territory
+country_event = {
+	id = fruitspace_will_to_power.1
+	title = fruitspace_will_to_power.t
+	desc = fruitspace_will_to_power.d
+	picture = GFX_report_event_finnish_letter
+	is_triggered_only = yes
+	option = {
+		trigger ={
+		if {
+			is_subject_of = SOV
+		}
+		}
+		name = fruitspace_will_to_power.dis
+		set_cosmetic_tag = UKR
+		subjects_autonomy_gain = 0.5
+	option = {
+		name = fruitspace_will_to_power.no
+	}
+	}
+}

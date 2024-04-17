@@ -1,0 +1,123 @@
+ideas = {
+
+##    ##  #######      ######  ######## ######## ########     ########     ###     ######  ##    ##
+###   ## ##     ##    ##    ##    ##    ##       ##     ##    ##     ##   ## ##   ##    ## ##   ##
+####  ## ##     ##    ##          ##    ##       ##     ##    ##     ##  ##   ##  ##       ##  ##
+## ## ## ##     ##     ######     ##    ######   ########     ########  ##     ## ##       #####
+##  #### ##     ##          ##    ##    ##       ##           ##     ## ######### ##       ##  ##
+##   ### ##     ##    ##    ##    ##    ##       ##           ##     ## ##     ## ##    ## ##   ##
+##    ##  #######      ######     ##    ######## ##           ########  ##     ##  ######  ##    ##
+
+
+	country= {
+
+		SOV_second_five_year_plan_fake_1936_ns = { #Only used for 1936 bookmark (dynamic modifiers don't show up there)
+			name = SOV_second_five_year_plan_dynamic_modifier
+
+			removal_cost = -1
+
+			picture = SOV_second_five_year_plan
+
+			allowed = {
+				always = yes
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = 0.05
+				consumer_goods_factor = 0.10
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+
+		SOV_second_five_year_plan_fake_1939_ns = { #Only used for 1939 bookmark (dynamic modifiers don't show up there)
+			name = SOV_second_five_year_plan_dynamic_modifier
+
+			removal_cost = -1
+
+			picture = SOV_third_five_year_plan
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.1 #-0.1
+				production_factory_max_efficiency_factor = 0.05 #0.05
+				consumer_goods_factor = 0.2 #0.2
+				production_speed_industrial_complex_factor = 0.05 #0.05
+				industrial_concern_cost_factor = -0.15 #-0.15
+			}
+		}
+
+		trotskyite_plot_nsb = {
+			name = trotskyite_plot
+
+			removal_cost = -1
+
+			picture = trotskyite_plot
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				OR = {
+					SOV_is_right_opposition = yes
+					has_country_leader = {
+						character = SOV_iosif_stalin
+						ruling_only = yes
+					}
+				}
+			}
+
+			modifier = {
+				stability_factor = -0.2
+				political_power_factor = -0.15
+			}
+		}
+
+		trotskyite_plot_purged = {
+			removal_cost = -1
+
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+
+		home_of_revolution = {
+			removal_cost = 1
+
+
+			allowed = {
+				always = yes
+			}
+
+
+			modifier = {
+				drift_defence_factor = 0.5
+
+			}
+		}
+        FRU_will_to_power = {
+			removal_cost = 1
+
+
+			allowed = {
+				always = yes
+			}
+
+
+			modifier = {
+                maidenism_drift = 0.5
+			}
+		}
+    }

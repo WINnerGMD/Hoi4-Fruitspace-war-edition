@@ -1,0 +1,41 @@
+characters={
+	FRU_M41den={
+		name="Josef Maidan"
+		portraits={
+			civilian={
+				large="GFX_portrait_Fruitspace_m41den"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	FRU_M41den_2={
+		name="Aleksander M41den"
+		portraits={
+			civilian={
+				large="GFX_portrait_Fruitspace_m41den_2"
+			}
+		}
+		country_leader={
+			ideology=revolution_use
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	FRU_M41den_wine={
+		name="Widan von Mawin"
+		portraits={
+			civilian={
+				large="GFX_portrait_Fruitspace_m41den_wine"
+			}
+		}
+		country_leader={
+			ideology=parlament
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

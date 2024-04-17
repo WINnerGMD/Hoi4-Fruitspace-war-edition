@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	# Fruitspace
+	spriteType = {
+		name = "GFX_portrait_Fruitspace_m41den_wine"
+		texturefile = "gfx/leaders/FRU/Portrait_Fruitspace_m41den_wine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Fruitspace_m41den"
+		texturefile = "gfx/leaders/FRU/Portrait_Fruitspace_m41den.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Fruitspace_m41den_2"
+		texturefile = "gfx/leaders/FRU/Portrait_Fruitspace_m41den_2.dds"
+	}
+}

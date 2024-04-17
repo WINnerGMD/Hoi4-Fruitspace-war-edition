@@ -1,0 +1,51 @@
+capital = 199
+
+set_popularities = {
+	democratic = 60
+	fascism = 20
+	communism = 20
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	home_of_revolution
+}
+set_autonomy = {
+		target = GER
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.35
+	}
+set_autonomy = {
+		target = EST
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.35
+	}
+set_autonomy = {
+		target = LIT
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.35
+	}
+
+set_autonomy = {
+		target =  HUN
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.35
+	}
+
+create_faction = HalogenPact
+set_faction = GER
+set_faction = EST
+set_faction = LIT
+set_faction = HUN
+
+
+recruit_character = FRU_M41den
+recruit_character = FRU_M41den_wine
+recruit_character = ELS_osmin_aguirre_y_salinas
