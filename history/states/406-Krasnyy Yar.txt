@@ -7,11 +7,11 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = RUSH
+		owner = RSH
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = RUSH
+		add_core_of = RSH
 		victory_points = {
 			3618 1
 		}

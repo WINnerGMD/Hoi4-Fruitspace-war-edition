@@ -9,6 +9,13 @@ SUN = {
 	color = rgb { 230 160 255 }
 	color_ui = rgb { 230 160 255 }
 }
+
+
+RSH = {
+	color = rgb { 20 182 168 }
+	color_ui = rgb { 20 182 168 }
+}
+
 NIK = {
 	color = rgb { 41 193 37 }
 	color_ui = rgb { 41 193 37 }

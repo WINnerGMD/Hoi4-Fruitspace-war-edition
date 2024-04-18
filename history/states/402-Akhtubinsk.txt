@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = FHG
+		owner = RSH
 		victory_points = {
 			7341 1
 		}
@@ -14,7 +14,7 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = FHG
+		add_core_of = RSH
 
 	}
 

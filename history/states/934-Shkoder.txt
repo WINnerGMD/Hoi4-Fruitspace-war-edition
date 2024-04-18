@@ -1,0 +1,28 @@
+
+state = {
+	id = 934
+	name = "STATE_934"
+	resources = {
+		aluminium = 1.000
+        chromium = 1.000
+	}
+
+	history = {
+		owner = TUR
+        victory_points = {
+            9780 3 
+        }
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+		}
+		add_core_of = TUR
+	}
+
+	provinces = {
+		3896 9780 11762
+	}
+	manpower = 246933
+	state_category = rural
+	local_supplies = 5.000
+}
