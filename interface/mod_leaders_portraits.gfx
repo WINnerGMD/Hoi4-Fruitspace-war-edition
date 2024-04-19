@@ -15,4 +15,17 @@ spriteTypes = {
 		name = "GFX_portrait_Fruitspace_m41den_2"
 		texturefile = "gfx/leaders/FRU/Portrait_Fruitspace_m41den_2.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_Fruitspace_leapher"
+		texturefile = "gfx/leaders/FRU/Portrait_Fruitspace_leapher.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_Winerecia_winner"
+		texturefile = "gfx/leaders/GER/Portrait_Winerecia_winner.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Gdrush_Alexey_Jabkin"
+		texturefile = "gfx/leaders/RSH/Portrait_Gdrush_jabkin.dds"
+	}
 }

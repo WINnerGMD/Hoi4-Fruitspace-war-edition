@@ -1,9 +1,10 @@
 capital = 199
 
 set_popularities = {
-	democratic = 60
-	fascism = 20
-	communism = 20
+	maidenism = 26
+	democratic = 51
+	communism = 10
+	fascism = 13
 }
 
 
@@ -39,13 +40,21 @@ set_autonomy = {
 		freedom_level = 0.35
 	}
 
+set_autonomy = {
+		target =  RSH
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.75
+	}
+
 create_faction = HalogenPact
 set_faction = GER
 set_faction = EST
 set_faction = LIT
 set_faction = HUN
-
+set_faction = RSH
 
 recruit_character = FRU_M41den
 recruit_character = FRU_M41den_wine
+recruit_character = FRU_M41den_2
+recruit_character = FRU_Leapher
 recruit_character = ELS_osmin_aguirre_y_salinas

@@ -107,10 +107,23 @@ ideas = {
 
 			}
 		}
-        FRU_will_to_power = {
+		FRU_spirit_of_maidenism= {
 			removal_cost = 1
 
 
+			allowed = {
+				always = yes
+			}
+
+			picture = GFX_goal_generic_national_unity
+			modifier = {
+                democratic_drift = -0.02
+			}
+		}
+        FRU_will_to_power = {
+			removal_cost = 1
+
+			
 			allowed = {
 				always = yes
 			}

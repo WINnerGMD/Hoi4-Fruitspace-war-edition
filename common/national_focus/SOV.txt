@@ -16,7 +16,7 @@ focus_tree = {
 	focus = {
 			id = FRU_developing_new_policies
 
-			icon = GFX_goal_generic_demand_territory
+			icon = GFX_goal_support_democracy
 			x = 10
 			y = 0
 			cost = 5
@@ -38,7 +38,7 @@ focus_tree = {
 	focus = {
 		id = FRU_change_of_course
 
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_generic_military_deal
 		x = 5
 		y = 1
 		cost = 5
@@ -56,7 +56,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRU_path_of_maidenism
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_focus_SOV_the_path_of_marxism_leninism
 		x = -1
 		y = 1
 		cost = 5
@@ -76,13 +76,119 @@ focus_tree = {
 					}
 			}
 	}
+	focus = {
+		id = FRU_retaining_influence
 
+		icon = GFX_goal_continuous_restrict_freedom
+		x = 1
+		y = 3
+		cost = 5
+		relative_position_id =  FRU_path_of_maidenism
+		prerequisite =  { focus = FRU_path_of_maidenism  focus = FRU_will_to_power}
+
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
+            add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes						
+					}
+			}
+	}
+	focus = {
+		id = FRU_GDRUSH_retention
+
+		icon = GFX_focus_ITA_blackshirts
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id =  FRU_retaining_influence
+		prerequisite =  { focus = FRU_retaining_influence}
+
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
+            add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes						
+					}
+			}
+	}
+	focus = {
+		id = FRU_GGDash_retention
+		icon = GFX_focus_ITA_alpine_division
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id =  FRU_retaining_influence
+		prerequisite =  { focus = FRU_retaining_influence}
+
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
+            add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes						
+					}
+			}
+	}
+	focus = {
+		id = FRU_KotGDPS_retention
+		icon = GFX_focus_ITA_subdue_the_sentinels
+		x = -4
+		y = 1
+		cost = 5
+		relative_position_id =  FRU_retaining_influence
+		prerequisite =  { focus = FRU_retaining_influence}
+
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
+            add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes						
+					}
+			}
+	}
+	focus = {
+		id = FRU_avoid_internal_split
+		icon = GFX_focus_ger_strike_at_the_source
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id =  FRU_GGDash_retention
+		prerequisite =  { focus = FRU_GGDash_retention focus = FRU_GDRUSH_retention focus = FRU_KotGDPS_retention }
+
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
+            add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes						
+					}
+			}
+	}
 	focus = {
 		id = FRU_path_to_greatness
 
 		icon = GFX_goal_generic_demand_territory
 		x = 3
-		y = 3
+		y = 1
 		cost = 5
 		relative_position_id =  FRU_path_of_maidenism
 		prerequisite =  { focus = FRU_path_of_maidenism}
@@ -99,14 +205,47 @@ focus_tree = {
 					}
 			}
 	}
+	focus = {
+		id = FRU_idea_of_change
+
+		icon = GFX_goal_generic_territory_or_war
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id =  FRU_will_to_power
+		prerequisite =  { focus = FRU_will_to_power }
+
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRU_start_of_reformation
+
+		icon = GFX_goal_generic_territory_or_war
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id =  FRU_will_to_power
+		prerequisite =  { focus = FRU_will_to_power }
+
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
+		}
+	}
 	
 	focus = {
 		
 		id = FRU_will_to_power
-
-		icon = GFX_goal_generic_CAS
-		x = 6
-		y = 2
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 0
+		y = 1
 		cost = 5
 
 
@@ -127,7 +266,7 @@ focus_tree = {
 		icon = GFX_goal_support_fascism
 
 		x = 5
-		y = 3
+		y = 2
 		cost = 5
 
 		mutually_exclusive = { focus = FRU_world_revolution }
@@ -160,6 +299,67 @@ focus_tree = {
 		completion_reward = {
 				add_ideas = FRU_will_to_power
 				news_event = fruitspace_will_to_power.1
+			}
+	}
+	focus = {
+		
+		id = FRU_bet_on_communism
+		
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = FRU_world_revolution }
+		relative_position_id = FRU_world_revolution
+		mutually_exclusive = { focus = FRU_bet_on_winerecism }
+		x = 1
+		y = 1
+		cost = 5
+
+
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
+				add_ideas = FRU_will_to_power
+				news_event = fruitspace_will_to_power.1
+			}
+	}
+	focus = {
+		
+		id = FRU_bet_on_winerecism
+		
+		icon = GFX_focus_ger_great_red_menace
+		prerequisite = { focus = FRU_world_revolution }
+		relative_position_id = FRU_world_revolution
+		mutually_exclusive = { focus = FRU_bet_on_communism }
+		x = -1
+		y = 1
+		cost = 5
+
+
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
+			}
+	}
+	focus = {
+		
+		id = FRU_liberation_of_Mavin
+		
+		icon = GFX_portrait_Fruitspace_m41den_wine
+		prerequisite = { focus = FRU_bet_on_winerecism }
+		relative_position_id = FRU_bet_on_winerecism
+		x = 0
+		y = 2
+		cost = 5
+
+
+
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
 			}
 	}
 }

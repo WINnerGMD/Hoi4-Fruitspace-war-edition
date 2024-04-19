@@ -1,0 +1,15 @@
+set_popularities = {
+	fascism = 70
+	neutrality = 30
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character= RSH_Alexey_Jabkin
+recruit_character = ELS_osmin_aguirre_y_salinas

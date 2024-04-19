@@ -13,7 +13,7 @@ characters={
 		}
 	}
 	FRU_M41den_2={
-		name="Aleksander M41den"
+		name="Alexander M41den"
 		portraits={
 			civilian={
 				large="GFX_portrait_Fruitspace_m41den_2"
@@ -38,4 +38,26 @@ characters={
 			id=-1
 		}
 	}
+	FRU_Leapher = {
+		name = "Leapher"
+		portraits={
+			civilian={
+				small="GFX_portrait_Fruitspace_leapher"
+			}
+		}
+		advisor ={
+			slot = political_advisor
+			allowed = {
+				original_tag = SOV
+			}
+			available = {
+
+			}
+			cost = 100
+			traits = {
+				captain_of_industry
+			}
+		}
+	}
+
 }
