@@ -1,0 +1,15 @@
+characters={
+	HUN_glorius={
+		name="Kira Glorius"
+		portraits={
+			civilian={
+				large="GFX_portrait_Ggdash_Kira_Glorious"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=1
+		}
+	}
+}

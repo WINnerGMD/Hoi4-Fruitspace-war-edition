@@ -20,6 +20,10 @@ spriteTypes = {
 		name = "GFX_portrait_Fruitspace_leapher"
 		texturefile = "gfx/leaders/FRU/Portrait_Fruitspace_leapher.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_Fruitspace_killdoom"
+		texturefile = "gfx/leaders/FRU/Portrait_Fruitspace_killdoom.dds"
+	}
 		spriteType = {
 		name = "GFX_portrait_Winerecia_winner"
 		texturefile = "gfx/leaders/GER/Portrait_Winerecia_winner.dds"
@@ -27,5 +31,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Gdrush_Alexey_Jabkin"
 		texturefile = "gfx/leaders/RSH/Portrait_Gdrush_jabkin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Ggdash_Kira_Glorious"
+		texturefile = "gfx/leaders/HUN/Portrait_Ggdash_Kira_Glorious.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GDQ_Zaiver"
+		texturefile = "gfx/leaders/NOR/Portrait_GDQ_Zaiver.dds"
 	}
 }

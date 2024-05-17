@@ -1,0 +1,37 @@
+focus_tree = {
+	id = FRA_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	
+	default = no
+
+
+
+
+	focus = {
+		id = FRA_true_democracy
+
+		icon = GFX_goal_support_democracy
+		x = 1
+		y = 0
+		cost = 5
+
+
+
+
+
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+
+		completion_reward = {
+        democratic_drift = 
+	}
+    }

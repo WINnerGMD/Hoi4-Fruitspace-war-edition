@@ -2,25 +2,314 @@
 # Fruitspace Events
 ###########################
 
-add_namespace = fruitspace_will_to_power
+add_namespace = fruitspace
 # Second Vienna Award - No Territory
 country_event = {
-	id = fruitspace_will_to_power.1
-	title = fruitspace_will_to_power.t
-	desc = fruitspace_will_to_power.d
+	id = fruitspace.1
+	title = fruitspace.1.t
+	desc = fruitspace.1.d
 	picture = GFX_report_event_finnish_letter
 	is_triggered_only = yes
 	option = {
 		trigger ={
-		if {
-			is_subject_of = SOV
 		}
+		name = fruitspace.1.makeit
+		set_cosmetic_tag = FRU
+		664 = {
+			if = {
+			limit = { is_owned_by = SOV }
+			add_core_of = HUN
+			owner = HUN
+			}
 		}
-		name = fruitspace_will_to_power.dis
-		set_cosmetic_tag = UKR
 		subjects_autonomy_gain = 0.5
-	option = {
-		name = fruitspace_will_to_power.no
-	}
+		set_politics = {
+		ruling_party = maidenism
+		}
+		country_event = {
+			id = fruitspace.2
+			days = 10
+		}
 	}
 }
+
+country_event = {
+	id = fruitspace.2
+	title = fruitspace.2.t
+	desc = fruitspace.2.d
+	picture = GFX_report_event_finnish_letter
+	is_triggered_only = yes
+	option = {
+		trigger ={
+		}
+		GER = {
+			if = {
+				limit = {
+					60 = { is_owned_by = SOV}
+				}
+				transfer_state = 60 
+			}
+			if = {
+				limit = {
+					56 = { is_owned_by = SOV}
+				}
+				transfer_state = 56
+			}
+		}
+		HUN = {
+			if = {
+				limit = {
+					 88 = { is_owned_by = SOV}
+				}
+				transfer_state = 88 
+			}
+			if = {
+				limit = {
+					75 = { is_owned_by = SOV}
+				}
+				transfer_state = 75
+			}
+		}
+		name = fruitspace.2.bad
+		country_event = {
+			id = fruitspace.3
+			days = 10
+		}
+	}
+}
+
+country_event = {
+	id = fruitspace.3
+	title = fruitspace.3.t
+	desc = fruitspace.3.d
+	picture = GFX_report_event_finnish_letter
+	is_triggered_only = yes
+	option = {
+		trigger ={
+		}
+		GER = {
+			if = {
+				limit = {
+					59 = { is_owned_by = SOV}
+				}
+				transfer_state = 59
+			}
+			if = {
+				limit = {
+					69 = { is_owned_by = SOV}
+				}
+				transfer_state = 69
+			}
+			if = {
+				limit = {
+					9 = { is_owned_by = SOV}
+				}
+				transfer_state = 9
+			}
+		}
+		HUN = {
+			if = {
+				limit = {
+					 89 = { is_owned_by = SOV}
+				}
+				transfer_state = 89
+			}
+			if = {
+				limit = {
+					72 = { is_owned_by = SOV}
+				}
+				transfer_state = 72
+			}
+		}
+		name = fruitspace.3.bad
+		country_event = {
+			id = fruitspace.4
+			days = 10
+		}
+	}
+}
+
+country_event = {
+	id = fruitspace.4
+	title = fruitspace.4.t
+	desc = fruitspace.4.d
+	picture = GFX_report_event_finnish_letter
+	is_triggered_only = yes
+	option = {
+		trigger ={
+		}
+		GOW = {
+			if = {
+				limit = {
+					263 = { is_owned_by = SOV}
+				}
+				transfer_state = 263
+			}
+			if = {
+				limit = {
+					210 = { is_owned_by = SOV}
+				}
+				transfer_state = 210
+			}
+			if = {
+				limit = {
+					246 = { is_owned_by = SOV}
+				}
+				transfer_state = 246
+			}
+		}
+		name = fruitspace.4.bad
+		country_event = {
+			id = fruitspace.5
+			days = 10
+		}
+	}
+}
+
+
+country_event = {
+	id = fruitspace.5
+	title = fruitspace.5.t
+	desc = fruitspace.5.d
+	picture = GFX_report_event_finnish_letter
+	is_triggered_only = yes
+	option = {
+		trigger ={
+		}
+		GOW = {
+			if = {
+				limit = {
+					263 = { is_owned_by = SOV}
+				}
+				transfer_state = 263
+			}
+			if = {
+				limit = {
+					210 = { is_owned_by = SOV}
+				}
+				transfer_state = 210
+			}
+			if = {
+				limit = {
+					246 = { is_owned_by = SOV}
+				}
+				transfer_state = 246
+			}
+		}
+		name = fruitspace.4.bad
+		country_event = {
+			id = fruitspace.6
+			days = 5
+		}
+	}
+}
+
+country_event = {
+	id = fruitspace.6
+	title = fruitspace.6.t
+	desc = fruitspace.6.d
+	picture = GFX_report_event_finnish_letter
+	is_triggered_only = yes
+	option = {
+		trigger ={
+		}
+		MEL = {
+			if = {
+				limit = {
+					64 = { is_owned_by = SOV}
+				}
+				transfer_state = 64
+			}
+			if = {
+				limit = {
+					61 = { is_owned_by = SOV}
+				}
+				transfer_state = 61
+			}
+			if = {
+				limit = {
+					 62 = { is_owned_by = SOV}
+				}
+				transfer_state = 62
+			}
+		}
+		CIN = {
+			if = {
+				limit = {
+					909 = { is_owned_by = SOV}
+				}
+				transfer_state = 909
+			}
+			if = {
+				limit = {
+					58 = { is_owned_by = SOV}
+				}
+				transfer_state = 58
+			}
+		}
+		name = fruitspace.6.bad
+		country_event = {
+			id = fruitspace.7
+			days = 5
+		}
+	}
+}
+
+
+country_event = {
+	id = fruitspace.7
+	title = fruitspace.7.t
+	desc = fruitspace.7.d
+	picture = GFX_report_event_finnish_letter
+	is_triggered_only = yes
+	option = {
+		trigger ={
+		}
+		MEM = {
+			if = {
+				limit = {
+					63 = { is_owned_by = SOV}
+				}
+				transfer_state = 63
+			}
+		}
+		BAR = {
+			if = {
+				limit = {
+					86 = { is_owned_by = SOV}
+				}
+				transfer_state = 86
+			}
+		}
+		SLI = {
+			if = {
+				limit = {
+					68 = { is_owned_by = SOV}
+				}
+				transfer_state = 68
+			}
+		}
+		GMP = {
+			if = {
+				limit = {
+					66 = { is_owned_by = SOV}
+				}
+				transfer_state = 66
+			}
+		}
+		SAG = {
+			if = {
+				limit = {
+					65 = { is_owned_by = SOV}
+				}
+				transfer_state = 65
+			}
+		}
+		name = fruitspace.6.bad
+		country_event = {
+			id = fruitspace.8
+			days = 5
+		}
+	}
+}
+

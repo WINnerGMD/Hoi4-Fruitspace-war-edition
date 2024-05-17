@@ -372,17 +372,15 @@ set_war_support = 0.3
 }
 
 set_popularities = {
-	democratic = 60
-	fascism = 20
-	communism = 20
+	maidenism = 50
+	democratic = 50
 }
 
 
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 
@@ -1220,4 +1218,5 @@ if = {
 }
 
 recruit_character = GER_WINner
+recruit_character = GER_great_owners_council
 recruit_character = ELS_osmin_aguirre_y_salinas

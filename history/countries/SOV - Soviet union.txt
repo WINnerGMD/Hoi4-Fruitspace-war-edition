@@ -18,11 +18,7 @@ set_politics = {
 add_ideas = {
 	home_of_revolution
 }
-set_autonomy = {
-		target = GER
-		autonomous_state = autonomy_satellite
-		freedom_level = 0.35
-	}
+
 set_autonomy = {
 		target = EST
 		autonomous_state = autonomy_satellite
@@ -41,10 +37,23 @@ set_autonomy = {
 	}
 
 set_autonomy = {
+		target =  HOL
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.35
+	}
+
+set_autonomy = {
 		target =  RSH
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.75
 	}
+set_autonomy = {
+		target =  GER
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.75
+	}
+
+
 
 create_faction = HalogenPact
 set_faction = GER
@@ -57,4 +66,5 @@ recruit_character = FRU_M41den
 recruit_character = FRU_M41den_wine
 recruit_character = FRU_M41den_2
 recruit_character = FRU_Leapher
+recruit_character = FRU_Killdoom
 recruit_character = ELS_osmin_aguirre_y_salinas

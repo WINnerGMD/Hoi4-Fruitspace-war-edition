@@ -14,3 +14,20 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+set_autonomy = {
+		target =  SHX
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.5
+	}
+
+set_autonomy = {
+		target =  SIK
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.5
+	}
+
+
+
+create_faction = FHGDPSPact
+set_faction = SHX
+set_faction = SIK

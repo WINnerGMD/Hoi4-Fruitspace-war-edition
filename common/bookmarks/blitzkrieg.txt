@@ -35,18 +35,12 @@ bookmarks = {
 			}
 		}
 
-		FRA = {
+		ENG = {
 			history = FRA_BLITZKRIEG_DESC
 			ideology = democratic
 			ideas={
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
 			}
 			focuses = {
-				FRA_strengthen_government_support
-				FRA_arms_purchases_in_the_us
-				FRA_french_union
 			}
 		}
 		"HUN"={
@@ -64,32 +58,32 @@ bookmarks = {
 			}
 		}
 		"RSH"={
-			history = "sss"
+			history = "HUN_BLITZKRIEG_DESC"
 			ideology = fascism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		"LIT"={
-			history = "sss"
-			ideology = fascism
+		"NOR"={
+			history = "HUN_BLITZKRIEG_DESC"
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		"EST"={
-			history = "sss"
-			ideology = fascism
+		"SWE"={
+			history = "HUN_BLITZKRIEG_DESC"
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		"ROM"={
-			history = "sss"
-			ideology = fascism
+		"TUR"={
+			history = "HUN_BLITZKRIEG_DESC"
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
@@ -98,7 +92,81 @@ bookmarks = {
 
 
 
-		# minors from DLC ####
+
+		# minors
+		LIT={
+			minor = yes
+			history = "sss"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		EST={
+			history = "sss"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+			minor = yes
+		}
+		ROM={
+			history = "sss"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+			minor = yes
+		}
+		SWI={
+			history = "sss"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+			minor = yes
+		}
+		ITA={
+			history = "sss"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+			minor = yes
+		}
+		IRE={
+			history = "sss"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+			minor = yes
+		}
+		AGD={
+			history = "sss"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+			minor = yes
+			available = { NOT = { has_dlc = "Arms Against Tyranny" } }
+		}
+		GHS={
+			history = "sss"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+			minor = yes
+		}
 		JAP = {
 			minor = yes
 			history = JAP_BLITZKRIEG_DESC
@@ -114,259 +182,59 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}		
 		}
-		"NIK"={
-			minor = yes
+		NIK={
 			history = "YUG_BLITZKRIEG_DESC"
 			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
 			}
-		}
-		"SUN"={
 			minor = yes
+		}
+		SUN={
 			history = "YUG_BLITZKRIEG_DESC"
 			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
 			}
-		}
-		"YUG"={
 			minor = yes
+		}
+		POD={
 			history = "YUG_BLITZKRIEG_DESC"
 			ideology = neutrality
 			ideas = {
-				anti_german_military
-				YUG_idea_croatian_opposition
-				YUG_idea_orthodox_church_support
 			}
 			focuses = {
-				YUG_join_axis
-				YUG_join_allies
-				YUG_the_ik_3
 			}
-		}
-
-		"TUR"={
 			minor = yes
-			history = "TUR_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				TUR_kemalist_army_officers_extended_power_neutral
-				TUR_sectarian_woes
-				TUR_disorganised_armed_forces_3
-			}
-			focuses = {
-				TUR_taking_over_defense_of_the_gulf
-				TUR_the_mediterranean_entente
-				TUR_misak_i_milli
-			}
-		}
-		"LIT"={
-			minor = yes
-			history = "LIT_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				LIT_victory_in_trust_idea
-				LIT_invested_in_farms_1
-				BALTIC_forest_brothers_idea
-			}
-			focuses = {
-				LIT_prepare_forest_brothers
-				LIT_new_kind_of_iron_wolf
-				BALTIC_belarus_ssr
-			}
-		}
-		
-		"LAT"={
-			minor = yes
-			history = "LAT_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				LAT_saeima_idea_military_1
-				LAT_the_sun_shines_equally_idea
-				LAT_paramilitary_idea_1
-			}
-			focuses = {
-				LAT_supply_forest_brothers
-				LAT_womens_aizsargi
-				BALTIC_revolutionary_cabinet
-			}
-		}
-		
-		"EST"={
-			minor = yes
-			history = "EST_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				EST_ismaaliit_idea
-				EST_national_council_idea
-				EST_exploit_the_banks_idea
-			}
-			focuses = {
-				EST_forest_brothers
-				EST_formalize_baltic_entente
-				BALTIC_united_baltic_ssr
-			}
-		}
-		"POL"={
-			minor = yes
-			history = "POL_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				deterrence
-			}
-			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
-			}
-		}
-		"SWI"={
-			minor = yes
-			history = "SWI_BLITZKRIEG_DESC"
-			ideology = democratic
-			ideas = {
-				SWI_spirit_of_helvetia_aggressive_war
-				SWI_frontier_defense_plan_idea_3
-				SWI_mountaineer_paratroopers_idea
-			}
-			focuses = {
-				SWI_gotthard_union
-				SWI_promote_guisan
-				SWI_closer_ties_with_germany
-			}
 		}
 		FIN={
 			minor = yes
-			history = FIN_BLITZKRIEG_DESC
+			history = "YUG_BLITZKRIEG_DESC"
 			ideology = neutrality
 			ideas = {
-				FIN_sisu_3
-				FIN_fortification_effort
-				FIN_repurposed_small_industries
 			}
 			focuses = {
-				FIN_winter_warfare
-				FIN_the_lone_wolf
-				FIN_long_range_patrols
 			}
 		}
-		SWE={
+		SPE={
 			minor = yes
-			history = "SWE_BLITZKRIEG_DESC"
-			ideology = democratic
-			available = { has_dlc = "Arms Against Tyranny" } 
-			ideas = {
-				SWE_radiotjanst_democratic
-				SWE_saltsjobaden_agreement
-				SWE_paid_holidays_idea
-			}
-			focuses = {
-				SWE_as_the_barometer_falls
-				SWE_the_old_enemy_stirs
-				SWE_coalition_war_cabinet
-			}
-		}
-		"NOR"={
-			minor = yes
-			history = "NOR_BLITZKRIEG_DESC"
-			ideology = democratic
-			ideas = {
-				NOR_defensive_rearmament_ns
-				NOR_crumbling_fortifications_ns
-				NOR_fake_independent_norway_ns
-			}
-			focuses = {
-				NOR_quislings_coup
-				NOR_norwegian_reichsprotectorate
-				NOR_the_kings_no
-			}
-		}
-		"DEN"={
-			minor = yes
-			history = DEN_BLITZKRIEG_DESC
-			ideology = democratic
-			available = { NOT = { has_dlc = "By Blood Alone" } }
-			ideas = {
-				DEN_fake_industrial_capability_2_ns
-				DEN_declaration_of_neutrality_no_BBA
-				DEN_danish_produce_improved 
-			}
-			focuses = {
-				DEN_full_employment
-				DEN_declare_independence
-				DEN_create_danforce
-			}
-		}
-		"DEN"={
-			minor = yes
-			history = DEN_BLITZKRIEG_DESC
-			ideology = democratic
-			available = { has_dlc = "By Blood Alone" }
-			ideas = {
-				DEN_fake_industrial_capability_2_ns
-				DEN_declaration_of_neutrality
-				DEN_danish_produce_improved 
-			}
-			focuses = {
-				DEN_full_employment
-				DEN_declare_independence
-				DEN_create_danforce
-			}
-		}
-		"BRA"={
-			minor = yes
-			history = BRA_BLITZKRIEG_DESC
+			history = "YUG_BLITZKRIEG_DESC"
 			ideology = neutrality
-			available = { has_dlc = "Trial of Allegiance" }
 			ideas = {
-				BRA_estado_novo_dummy_idea
-				BRA_radio_nacional_idea
-				BRA_army_dummy_idea
 			}
 			focuses = {
-				BRA_cooperation_in_the_americas
-				BRA_smoking_cobras
-				BRA_senta_a_pua
 			}
 		}
-		"CHL"={
+		NAN={
 			minor = yes
-			history = CHL_BLITZKRIEG_DESC
-			ideology = democratic
-			available = { has_dlc = "Trial of Allegiance" }
-			ideas = {
-				idea_CHL_the_Hacienda_inquilinaje_system
-				CHL_the_mapuche_conflict
-				SMB_MTG_naval_arms_race_legacy
-			}
-			focuses = {
-				CHL_development_inwards
-				CHL_kickstart_the_arsenal_of_democracy
-				CHL_protect_the_easter_island
-			}
-		}
-		"ARG"={
-			minor = yes
-			history = ARG_BLITZKRIEG_DESC
+			history = "YUG_BLITZKRIEG_DESC"
 			ideology = neutrality
-			available = { has_dlc = "Trial of Allegiance" }
 			ideas = {
-				SMB_MTG_naval_arms_race_legacy
-				ARG_raf_cooperation_idea
-				ARG_argentine_metropole_idea
 			}
 			focuses = {
-				ARG_towards_a_greater_argentina
-				ARG_end_operation_bolivar
-				ARG_the_american_push
 			}
-		}
-		effect = {
-			randomize_weather = 12345 # <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
 		}
 	}
 }

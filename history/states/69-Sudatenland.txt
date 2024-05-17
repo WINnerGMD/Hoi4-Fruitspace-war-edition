@@ -56,11 +56,6 @@ state=
 
 		}
 		add_core_of = SOV
-
-		1938.9.30 = {
-			owner = GER
-			controller = GER
-		}
 	}
 	provinces=
 	{

@@ -59,5 +59,26 @@ characters={
 			}
 		}
 	}
+	FRU_Killdoom = {
+		name = "Killdoom"
+		portraits={
+			civilian={
+				small="GFX_portrait_Fruitspace_killdoom"
+			}
+		}
+		advisor ={
+			slot = political_advisor
+			allowed = {
+				original_tag = SOV
+			}
+			available = {
+
+			}
+			cost = 100
+			traits = {
+				war_industrialist
+			}
+		}
+	}
 
 }

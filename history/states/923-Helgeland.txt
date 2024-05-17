@@ -1,0 +1,31 @@
+state = {
+	id = 923
+	name = "STATE_923"
+	manpower = 88812
+	
+	state_category = rural
+	
+	resources = {
+		steel = 3 
+		tungsten = 5
+	}
+
+	history = {
+		owner = FAN
+		add_core_of = FAN
+		
+		victory_points = {
+			3048 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+
+	provinces = {
+		173 3048 3088 3126 6071 6111 6187 9208 
+	}
+
+	local_supplies = 0.0
+}

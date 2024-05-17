@@ -1,0 +1,28 @@
+state = {
+	id = 875
+	name = "STATE_875" #Chukchi Peninsula
+
+	history = {
+		owner = FHG
+		victory_points = {
+			13204 1 
+		}
+		buildings = {
+			infrastructure = 1
+			13204 ={
+				naval_base = 1
+			}
+		}
+		add_core_of = FHG
+
+	}
+
+	provinces = {
+		13204 13254
+	}
+	manpower = 30000
+	buildings_max_level_factor = 1
+	state_category = "pastoral"
+
+	local_supplies = 0.0 
+}

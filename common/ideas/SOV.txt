@@ -107,7 +107,7 @@ ideas = {
 
 			}
 		}
-		FRU_spirit_of_maidenism= {
+		FRU_change_of_course= {
 			removal_cost = 1
 
 
@@ -115,9 +115,22 @@ ideas = {
 				always = yes
 			}
 
-			picture = GFX_goal_generic_national_unity
+			picture = GFX_goal_generic_military_deal
 			modifier = {
                 democratic_drift = -0.02
+			}
+		}
+		FRU_internal_fault= {
+			removal_cost = 1
+
+
+			allowed = {
+				always = yes
+			}
+
+			picture = GFX_goal_generic_military_deal
+			modifier = {
+                subjects_autonomy_gain = 0.5
 			}
 		}
         FRU_will_to_power = {

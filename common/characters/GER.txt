@@ -12,4 +12,17 @@ characters={
 			id=-1
 		}
 	}
+	GER_great_owners_council={
+		name="Grand council"
+		portraits={
+			civilian={
+				large="GFX_portrait_ITA_cln"
+			}
+		}
+		country_leader={
+			ideology=parlament
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }

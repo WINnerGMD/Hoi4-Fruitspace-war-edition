@@ -1,0 +1,26 @@
+ideas = {
+    country= {
+
+		GER_pressure_on_kreykdash = { #Only used for 1936 bookmark (dynamic modifiers don't show up there)
+			name = GER_pressure_on_kreykdash
+
+			removal_cost = -1
+
+			picture = SOV_second_five_year_plan
+
+			allowed = {
+				always = yes
+			}
+
+			modifier = {
+                democratic_drift = 0.1
+			}
+            cancel = {
+                has_political_power > 50 
+                GER = {
+                    has_capitulated = yes
+                }
+            }
+		}
+    }
+}
